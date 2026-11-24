@@ -65,7 +65,7 @@ ipcMain.handle('pick-output', async () => {
 
 ipcMain.handle('read-track', async (_, filePath) => {
   // Solo se leen archivos seleccionados explícitamente por la persona usuaria.
-  return fs.readFile(filePath);
+  return fs.promises.readFile(filePath);
 });
 
 ipcMain.handle('open-folder', (_, folder) => shell.openPath(folder));

@@ -5,5 +5,11 @@
   "description": "A local desktop app for separating songs into stems.",
   "author": "Mnomik",
   "license": "GPL-3.0-or-later",
-  "main": "src/main.js"
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "37.10.3"
+  }
 }
