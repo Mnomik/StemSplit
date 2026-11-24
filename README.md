@@ -4,7 +4,9 @@
 
 StemSplit separates music tracks into individual stems on your Windows computer. Audio is processed locally, without uploading your tracks to the cloud.
 
-[Version 0.3.1 release notes](https://github.com/Mnomik/StemSplit/releases/tag/v0.3.1) · [Previous Windows installer (0.3.0 Beta)](https://github.com/Mnomik/StemSplit/releases/download/v0.3.0-beta/StemSplit.Setup.0.3.0.exe)
+[Download the Windows installer (0.3.1)](https://github.com/Mnomik/StemSplit/releases/download/v0.3.1/StemSplit-Setup-0.3.1.exe) · [Release notes](https://github.com/Mnomik/StemSplit/releases/tag/v0.3.1)
+
+Run the installer to install StemSplit or update an existing installation. It includes Electron, Python and Demucs. The first separation may need an internet connection to download the model weights.
 
 Version 0.3.1 fixes audio preview loading and adds compact **ES** and **EN** controls for the main interface. Some dialogs and engine messages remain in Spanish.
 
