@@ -1,12 +1,14 @@
 # StemSplit
 
-**Source version 0.3.1 · Windows**
+**Version 0.3.1 · Windows**
 
 StemSplit separates music tracks into individual stems on your Windows computer. Audio is processed locally, without uploading your tracks to the cloud.
 
-[Download the Windows installer (0.3.0 Beta)](https://github.com/RoniMnomic/StemSplit/releases/download/v0.3.0-beta/StemSplit.Setup.0.3.0.exe) · [Release notes](https://github.com/RoniMnomic/StemSplit/releases/tag/v0.3.0-beta)
+[Version 0.3.1 release notes](https://github.com/RoniMnomic/StemSplit/releases/tag/v0.3.1) · [Previous Windows installer (0.3.0 Beta)](https://github.com/RoniMnomic/StemSplit/releases/download/v0.3.0-beta/StemSplit.Setup.0.3.0.exe)
 
-Version 0.3.1 adds compact **ES** and **EN** controls for the main interface. Some dialogs and engine messages remain in Spanish.
+Version 0.3.1 fixes audio preview loading and adds compact **ES** and **EN** controls for the main interface. Some dialogs and engine messages remain in Spanish.
+
+![StemSplit for Windows, showing the track, separation settings and output folder](CapturaStemsSpit.PNG)
 
 ## Run version 0.3.1 from source on Windows
 
