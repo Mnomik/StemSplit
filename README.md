@@ -4,7 +4,7 @@
 
 StemSplit separates music tracks into individual stems on your Windows computer. Audio is processed locally, without uploading your tracks to the cloud.
 
-[Version 0.3.1 release notes](https://github.com/RoniMnomic/StemSplit/releases/tag/v0.3.1) · [Previous Windows installer (0.3.0 Beta)](https://github.com/RoniMnomic/StemSplit/releases/download/v0.3.0-beta/StemSplit.Setup.0.3.0.exe)
+[Version 0.3.1 release notes](https://github.com/Mnomik/StemSplit/releases/tag/v0.3.1) · [Previous Windows installer (0.3.0 Beta)](https://github.com/Mnomik/StemSplit/releases/download/v0.3.0-beta/StemSplit.Setup.0.3.0.exe)
 
 Version 0.3.1 fixes audio preview loading and adds compact **ES** and **EN** controls for the main interface. Some dialogs and engine messages remain in Spanish.
 
@@ -15,7 +15,7 @@ Version 0.3.1 fixes audio preview loading and adds compact **ES** and **EN** con
 Install Node.js with npm, Python 3.12 with the Windows Python launcher, and Git. For audio formats that need FFmpeg, install FFmpeg and make sure `ffmpeg` and `ffprobe` are on your PATH. Run the following in PowerShell:
 
 ```powershell
-git clone https://github.com/RoniMnomic/StemSplit.git
+git clone https://github.com/Mnomik/StemSplit.git
 cd StemSplit
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install "demucs==4.1.0"
