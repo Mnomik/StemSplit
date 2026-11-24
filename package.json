@@ -1,0 +1,9 @@
+{
+  "name": "stemsplit",
+  "version": "0.3.1",
+  "private": true,
+  "description": "A local desktop app for separating songs into stems.",
+  "author": "Mnomik",
+  "license": "GPL-3.0-or-later",
+  "main": "src/main.js"
+}
