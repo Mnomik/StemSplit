@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StemSplit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header><span class="mark">S</span><div><h1>StemSplit</h1><p>Separa tu música sin subirla a ningún servidor.</p></div><span class="local">● Procesamiento local</span></header>
+      <section class="workspace card">
+        <div class="section-title"><span>1</span><div><h2>Tu track</h2><p>Un tema cada vez para máxima estabilidad.</p></div></div>
+        <div class="track-pick-row">
+          <div id="drop-zone" class="drop-zone"><button id="pick-tracks" class="outline">Elegir tema</button><span>o arrástralo aquí</span></div>
+          <div id="track-list" class="track-preview"><p class="empty">Selecciona un tema para comenzar.</p></div>
+        </div>
+        <div class="config-row">
+        <div><div class="section-title"><span>2</span><div><h2>Separación</h2><p id="device-label">Detectando dispositivo…</p></div></div>
+          <div class="select-pair"><label>Perfil<select id="profile"><option value="fast">Rápido</option><option value="balanced" selected>Equilibrado</option><option value="electronic">Electrónica</option></select></label>
+          <label>Extraer<select id="stem-mode"><option value="">4 stems</option><option value="vocals">Voz</option><option value="drums">Batería</option><option value="bass">Bajo</option></select></label></div>
+          <p id="profile-note" class="hint">4 stems con buena relación entre calidad y tiempo.</p>
+          <p class="hint">Los sintetizadores se guardan en <em>other</em>.</p>
+        </div>
+        <div class="destination"><div class="section-title"><span>3</span><div><h2>Resultado</h2><p>Se creará <em>NombreDelTema_stems</em>.</p></div></div><div class="destination-choice"><button id="pick-output" class="outline">Elegir carpeta</button><p id="output-path" class="path">Ninguna carpeta seleccionada.</p></div></div></div>
+      </section>
+      <section class="action"><button id="start" disabled>Separar stems</button><button id="cancel" class="text-button" hidden>Cancelar</button><p id="status">Elige un tema y una carpeta.</p></section>
+      <details id="technical" open><summary>Modo técnico <span id="technical-state">· en espera</span><span id="elapsed"></span></summary><pre id="log">En espera.</pre></details>
+      <footer lang="en">Created by <a href="mailto:ronimenomic@gmail.com">Mnomik</a> · <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL-3.0-or-later</a></footer>
+    </main>
+    <script src="renderer.js"></script>
+<script src="language.js"></script>
+</body>
+</html>
